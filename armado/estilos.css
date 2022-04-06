@@ -1,0 +1,66 @@
+/*esto es fondo de página*/
+
+body {
+    background-image: url("fotos/bg_02.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+  }
+  
+  /*esto es mi contenedor principal*/
+  
+  div {
+    width: 820px;
+    height: 2000px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*esto es mi header*/
+  
+  header {
+    width: 820px;
+    height: 125px;
+    /*background-color: beige;*/
+  }
+  
+  /*estos son los links del nav ubicado en el header*/
+  
+  header nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: yellow 3px solid;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    transition: 1s;
+  }
+  
+  /*esto es el nav del header*/
+  
+  header nav {
+    background-color: black
+  }
+  
+  /*estos son los links que al posicionar el mouse cambia de color*/
+  
+  header nav a:hover {
+    color: yellow;
+  }
+  
+  /*esto es el nav ubicado después de la imagen banner*/
+  
+  nav {
+    padding-top: 40px;
+    text-align: center;
+    width: 820px;
+    height: 32px;
+    background-color: #2c2c2c;
+  }
+  
+  header .logo {
+    float: left;
+  }
