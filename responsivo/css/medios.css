@@ -1,0 +1,26 @@
+@media screen and (min-width: 577px) and (max-width: 768px){
+.contenedor{ 
+   max-width: 768px;
+   margin: auto
+}
+
+.col-50 {
+	width: 50%;
+	padding:1%;
+	float: left
+}
+
+}
+
+@media screen and (min-width:769px){
+.contenedor{ 
+   max-width: 1360px;
+   margin: auto
+}
+
+.col-33 {
+	width: 33.33%;
+	padding:1%;
+	float: left
+}
+}

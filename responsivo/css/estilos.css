@@ -1,0 +1,112 @@
+html * { 
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box 
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #707070
+}
+
+h1 {
+	font-size: 2em
+}
+
+h2{
+	font-size: 1.5em
+}
+
+h3{
+	font-size: 1em
+}
+p{
+	line-height: 2em
+}
+
+a:link{
+	color:#3b2211
+}
+
+a:hover{
+	color: #de820f
+}
+
+.cabecera{
+	border-top: 10px #3b2211 solid;
+	padding-top:2%;
+	padding-bottom: 2%; 
+	background-color: #fff
+}
+
+#logotipo {
+	float: left
+}
+	
+.navbar {
+	float: right
+}
+
+.navbar li { 
+    display: inline-block;
+	list-style: none
+}
+
+.navbar a{
+	display: block;
+	padding: 10px;
+	text-decoration: none
+}
+
+.navbar a:hover{
+	background-color:#3b2211;
+    color:#fff
+}
+
+.titulo_principal {
+	text-align: center;
+	border-bottom: 2px #cccccc dotted;
+	padding-bottom: 10px;
+	margin-bottom:10px
+}
+ 
+.pie {
+	background-color: #3b2211;
+	color: #fff;
+	text-align: center;
+	padding: 3%
+}
+
+.restorant{ 
+	text-align: center; 
+	background-color: #f6f6f6;
+	padding: 5% 10%
+}
+
+.carta {
+	padding-top: 5%; 
+	padding-bottom: 5%
+}
+
+.banner {
+	background-image: url(../images/fondo.jpg);
+	height: 200px;
+	background-size: cover;
+	background-position: center
+}
+
+.clearfix{
+	clear: both;
+}
+
+.img-responsiva {
+	width: 100%;
+	height: auto;
+	max-width: 540px
+}
+
+.contenedor {
+	margin: auto;
+	max-width: 576px
+}
