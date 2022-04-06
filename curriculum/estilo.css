@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,600);
+
+* {
+    box-model: border-box;
+}
+
+section,
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section {
+    padding: 1%;
+}
+
+header {
+    padding: 0 3%;
+    border-right: 1px solid lightgreen;
+    margin-right: 3%;
+}
+
+aside article {
+    flex: 1;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato';
+    margin-top: 0;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 300;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: .9em;
+    letter-spacing: .5em;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: black;
+    background-color: #46b053;
+    text-transform: uppercase;
+}
+
+h3 {
+    padding-right: .5em;
+    font-weight: 600;
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 strong {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+ul::after {
+    content: " ";
+}
+
+p,
+li {
+    font-family: Tahoma;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    font-family: 'Lato';
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    display: block;
+    text-decoration: none;
+    background-color: #46b053;
+    color: black;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 0;
+
+}
+
+a:hover {
+    transition: all .5s ease;
+    background: white;
+    color: red;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: .85em;
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+aside article:first-child h2 {
+    margin-right: 2%;
+}
+
+aside ol strong {
+    display: block;
+}
